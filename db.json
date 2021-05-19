@@ -1,0 +1,665 @@
+{
+  "accessToken": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "accessToken": "fewfewfwejoijfeoiwjoifejwoijfeowjfeo",
+      "employee": {
+        "empCode": "12345",
+        "empName": "王一二",
+        "empEnName": "jason wang"
+      }
+    }
+  },
+  "validateRole": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "role": "Dep_Admin"
+    }
+  },
+  "annInfo": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "annInfos": [
+        {
+          "annSeqno": 0,
+          "annName": "公告名稱",
+          "annItem": {
+            "itemCode": "N",
+            "itemDesc": "公告描述"
+          },
+          "releaseDate": "2021/03/01",
+          "verDate": "2021/03/03",
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/07",
+          "annWMKType": "1",
+          "annVERDL": [],
+          "releaseUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "annDLType": "0",
+          "annDLVerify": "2",
+          "annexs": [
+            {
+              "annexName": "LOGO",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "LOGO.pdf",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "LOGO.word",
+                  "fileSize": "0.5"
+                },
+                {
+                  "fileSeqno": 3,
+                  "fileName": "LOGO.excel",
+                  "fileSize": "0.2"
+                }
+              ]
+            },
+            {
+              "annexName": "使用說明",
+              "annexgroup": 2,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "使用說明.png",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "使用說明.jpg",
+                  "fileSize": "0.5"
+                }
+              ]
+            },
+            {
+              "annexName": "範例",
+              "annexgroup": 3,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "範例.ppt",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "annSeqno": 1,
+          "annName": "稽核單",
+          "annItem": {
+            "itemCode": "U",
+            "itemDesc": "公告描述"
+          },
+          "releaseDate": "2021/03/04",
+          "verDate": "2021/03/20",
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/07",
+          "annWMKType": "1",
+          "annVERDL": [
+            {
+              "empCode": "3",
+              "empName": "尤金",
+              "empEnName": "yugeen"
+            },
+            {
+              "empCode": "4",
+              "empName": "佛羅多",
+              "empEnName": "felodou"
+            }
+          ],
+          "releaseUser": {
+            "empCode": "2",
+            "empName": "小朋友",
+            "empEnName": "child"
+          },
+          "annDLType": "1",
+          "annDLVerify": "0",
+          "annexs": [
+            {
+              "annexName": "稽核單",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "稽核單.word",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "annSeqno": 2,
+          "annName": "上班時間",
+          "annItem": {
+            "itemCode": "U",
+            "itemDesc": "山班時間自由選擇"
+          },
+          "releaseDate": "2021/03/04",
+          "verDate": "2021/03/19",
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/07",
+          "annWMKType": "1",
+          "annVERDL": [],
+          "releaseUser": {
+            "empCode": "2",
+            "empName": "小朋友",
+            "empEnName": "child"
+          },
+          "annDLType": "2",
+          "annDLVerify": "2",
+          "annexs": [
+            {
+              "annexName": "說明",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "說明.pdf",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "annSeqno": 3,
+          "annName": "電腦",
+          "annItem": {
+            "itemCode": "U",
+            "itemDesc": "電腦買起來"
+          },
+          "releaseDate": "2021/03/11",
+          "verDate": "2021/03/12",
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/07",
+          "annWMKType": "1",
+          "annVERDL": [],
+          "releaseUser": {
+            "empCode": "2",
+            "empName": "小朋友",
+            "empEnName": "child"
+          },
+          "annDLType": "1",
+          "annDLVerify": "2",
+          "annexs": [
+            {
+              "annexName": "規格書",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "規格書.pdf",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "annItem": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "items": [
+        {
+          "itemCode": "N",
+          "itemDesc": "一般公告"
+        },
+        {
+          "itemCode": "U",
+          "itemDesc": "單位公告"
+        },
+        {
+          "itemCode": "M",
+          "itemDesc": "主管公告"
+        }
+      ]
+    }
+  },
+  "annUnit": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "units": [
+        {
+          "unitId": "4",
+          "unitName": "數位金融暨行動應用處"
+        },
+        {
+          "unitId": "5",
+          "unitName": "智慧聯網應用發展處"
+        },
+        {
+          "unitId": "6",
+          "unitName": "企業數位創新應用處"
+        }
+      ]
+    }
+  },
+  "annFileDL": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": "asdfg"
+  },
+  "annFileDLZip": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": "asdfg"
+  },
+  "annFileDLVER": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "verify": false,
+      "lastDLCount": 2
+    }
+  },
+  "annFileApply": {
+    "msgCode": "0000",
+    "msgContent": "Success"
+  },
+  "annVerifyInfo": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "annInfos": [
+        {
+          "annSeqno": 0,
+          "annName": "公告名稱",
+          "annItem": {
+            "itemCode": "N",
+            "itemDesc": "公告描述"
+          },
+          "annUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "annViewType": "A",
+          "annStatus": "已上架",
+          "annRepeal": false,
+          "releaseDate": "2021/03/01",
+          "releaseUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "releaseUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "upUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/016",
+          "annDLType": "0",
+          "annWMKType": "1",
+          "applyData": {
+            "dlSeqno": 1234,
+            "applyEmployee": {
+              "empCode": "2",
+              "empName": "小朋友",
+              "empEnName": "child"
+            },
+            "applyReason": "需要使用"
+          },
+          "annVERDL": [
+            {
+              "empCode": "1",
+              "empName": "大朋友",
+              "empEnName": "big child"
+            }
+          ],
+          "viewEmployees": [
+            {
+              "empCode": "3",
+              "empName": "尤金",
+              "empEnName": "yugeen"
+            },
+            {
+              "empCode": "4",
+              "empName": "佛羅多",
+              "empEnName": "felodou"
+            }
+          ],
+          "viewUnits": [
+            {
+              "unitId": "5",
+              "unitName": "智慧聯網應用發展處"
+            },
+            {
+              "unitId": "6",
+              "unitName": "企業數位創新應用處"
+            }
+          ],
+          "annexs": [
+            {
+              "annexName": "LOGO",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "LOGO.pdf",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "LOGO.word",
+                  "fileSize": "0.5"
+                },
+                {
+                  "fileSeqno": 3,
+                  "fileName": "LOGO.excel",
+                  "fileSize": "0.2"
+                }
+              ]
+            },
+            {
+              "annexName": "使用說明",
+              "annexgroup": 2,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "使用說明.png",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "使用說明.jpg",
+                  "fileSize": "0.5"
+                }
+              ]
+            },
+            {
+              "annexName": "範例",
+              "annexgroup": 3,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "範例.ppt",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "annSeqno": 1,
+          "annName": "上班時間",
+          "annItem": {
+            "itemCode": "U",
+            "itemDesc": "公告描述"
+          },
+          "annUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "annViewType": "A",
+          "annStatus": "已上架",
+          "annRepeal": false,
+          "releaseDate": "2021/03/02",
+          "releaseUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "releaseUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "upUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "startDate": "2021/03/04",
+          "endDate": "2021/03/016",
+          "annDLType": "0",
+          "annWMKType": "0",
+          "applyData": {
+            "dlSeqno": 1234,
+            "applyEmployee": {
+              "empCode": "5",
+              "empName": "沒朋友",
+              "empEnName": "no friend"
+            },
+            "applyReason": "需要使用"
+          },
+          "annVERDL": [
+            {
+              "empCode": "1",
+              "empName": "大朋友",
+              "empEnName": "big child"
+            }
+          ],
+          "viewEmployees": [
+            {
+              "empCode": "3",
+              "empName": "尤金",
+              "empEnName": "yugeen"
+            },
+            {
+              "empCode": "4",
+              "empName": "佛羅多",
+              "empEnName": "felodou"
+            }
+          ],
+          "viewUnits": [
+            {
+              "unitId": "5",
+              "unitName": "智慧聯網應用發展處"
+            },
+            {
+              "unitId": "6",
+              "unitName": "企業數位創新應用處"
+            }
+          ],
+          "annexs": [
+            {
+              "annexName": "LOGO",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "LOGO.pdf",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "LOGO.word",
+                  "fileSize": "0.5"
+                },
+                {
+                  "fileSeqno": 3,
+                  "fileName": "LOGO.excel",
+                  "fileSize": "0.2"
+                }
+              ]
+            },
+            {
+              "annexName": "使用說明",
+              "annexgroup": 2,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "使用說明.png",
+                  "fileSize": "1"
+                },
+                {
+                  "fileSeqno": 2,
+                  "fileName": "使用說明.jpg",
+                  "fileSize": "0.5"
+                }
+              ]
+            },
+            {
+              "annexName": "範例",
+              "annexgroup": 3,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 0,
+                  "fileName": "範例.ppt",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "annVerifyInfo_dwnld": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": {
+      "annInfos": [
+        {
+          "annSeqno": 0,
+          "annName": "公告名稱",
+          "annItem": {
+            "itemCode": "U",
+            "itemDesc": "單位描述"
+          },
+          "annUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "annViewType": "P",
+          "annStatus": "已上架",
+          "annRepeal": false,
+          "releaseDate": "2021/03/03",
+          "releaseUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "releaseUnit": {
+            "unitId": "5",
+            "unitName": "智慧聯網應用發展處"
+          },
+          "upUser": {
+            "empCode": "1",
+            "empName": "大朋友",
+            "empEnName": "big child"
+          },
+          "startDate": "2021/03/01",
+          "endDate": "2021/03/016",
+          "annDLType": "1",
+          "annWMKType": "0",
+          "applyData": {
+            "dlSeqno": 1234,
+            "applyEmployee": {
+              "empCode": "2",
+              "empName": "小朋友",
+              "empEnName": "child"
+            },
+            "applyReason": "需要使用"
+          },
+          "annVERDL": [
+            {
+              "empCode": "1",
+              "empName": "大朋友",
+              "empEnName": "big child"
+            }
+          ],
+          "viewEmployees": [
+            {
+              "empCode": "3",
+              "empName": "尤金",
+              "empEnName": "yugeen"
+            },
+            {
+              "empCode": "4",
+              "empName": "佛羅多",
+              "empEnName": "felodou"
+            },
+            {
+              "empCode": "5",
+              "empName": "人員5",
+              "empEnName": "m5"
+            },
+            {
+              "empCode": "6",
+              "empName": "人員6",
+              "empEnName": "m6"
+            },
+            {
+              "empCode": "7",
+              "empName": "人員7",
+              "empEnName": "m7"
+            },
+            {
+              "empCode": "8",
+              "empName": "人員8",
+              "empEnName": "m8"
+            }
+          ],
+          "viewUnits": [
+            {
+              "unitId": "5",
+              "unitName": "智慧聯網應用發展處"
+            },
+            {
+              "unitId": "6",
+              "unitName": "企業數位創新應用處"
+            }
+          ],
+          "annexs": [
+            {
+              "annexName": "稽核單",
+              "annexgroup": 1,
+              "uploadFiles": [
+                {
+                  "fileSeqno": 1,
+                  "fileName": "稽核單.pdf",
+                  "fileSize": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "annVerifyAPV": {
+    "msgCode": "0000",
+    "msgContent": "Success"
+  },
+  "annVerifyREJ": {
+    "msgCode": "0000",
+    "msgContent": "Success"
+  },
+  "maintainFileDL": {
+    "msgCode": "0000",
+    "msgContent": "Success"
+  },
+  "ngDemoEmployees": {
+    "msgCode": "0000",
+    "msgContent": "Success",
+    "result": [
+      { "id": 1, "name": "A1", "address": "高雄", "favorite": "網球" },
+      { "id": 2, "name": "A2", "address": "台南", "favorite": "登山" },
+      { "id": 3, "name": "A3", "address": "嘉義", "favorite": "羽球" },
+      { "id": 4, "name": "A4", "address": "台中", "favorite": "籃球" },
+      { "id": 5, "name": "A5", "address": "苗栗", "favorite": "羽球" },
+      { "id": 6, "name": "A6", "address": "台北", "favorite": "網球" }
+    ]
+  }
+}
