@@ -308,10 +308,10 @@
           },
           "startDate": "2021/03/01",
           "endDate": "2021/03/016",
-          "annDLType": "0",
+          "annDLType": "1",
           "annWMKType": "1",
           "applyData": {
-            "dlSeqno": 1234,
+            "dlSeqno": 11,
             "applyEmployee": {
               "empCode": "2",
               "empName": "小朋友",
@@ -324,6 +324,21 @@
               "empCode": "1",
               "empName": "大朋友",
               "empEnName": "big child"
+            },
+            {
+              "empCode": "2",
+              "empName": "中朋友",
+              "empEnName": "big child"
+            },
+            {
+              "empCode": "3",
+              "empName": "尤金",
+              "empEnName": "yugeen"
+            },
+            {
+              "empCode": "4",
+              "empName": "佛羅多",
+              "empEnName": "felodou"
             }
           ],
           "viewEmployees": [
@@ -433,7 +448,7 @@
           "annDLType": "0",
           "annWMKType": "0",
           "applyData": {
-            "dlSeqno": 1234,
+            "dlSeqno": 22,
             "applyEmployee": {
               "empCode": "5",
               "empName": "沒朋友",
